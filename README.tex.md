@@ -16,7 +16,7 @@ https://en.wikipedia.org/wiki/List_of_prime_numbers#The_first_1000_prime_numbers
 
 We create a table as follows. The ordering will be explained below.
 
-| $i$ | $p_i$ | $p_{p_i}$ | $p_{p_{p_i}}i$ | $p_{p_{p_{p_i}}}$ | $p_{p_{p_{p_{p_i}}}}$  |
+| $i$ | $p_i$ | $p_{p_i}$ | $p_{p_{p_i}}$ | $p_{p_{p_{p_i}}}$ | $p_{p_{p_{p_{p_i}}}}$  |
 |-----|-------|-------------|--------------|-------------------|------------------------|
 | 1   | 2     | 3           | 5            | 11                | 31                     |
 | 4   | 7     | 17          | 59           | 277               | 1787                   |
