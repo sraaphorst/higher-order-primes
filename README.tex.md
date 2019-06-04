@@ -57,4 +57,4 @@ We create a partial segment of a table as follows. The ordering will be explaine
 
 Write:
 
-$$p^k_i = \underbrace{p_{p_{p_{...p_i}}}}{\textrm{$k$ times}$$
+$$p^k_i = \underbrace{p_{p_{p_{...p_i}}}}_{\textrm{$k$ times}$$
