@@ -14,7 +14,7 @@ Here is a list of the first 1000 primes in order for convenience:
 
 https://en.wikipedia.org/wiki/List_of_prime_numbers#The_first_1000_prime_numbers
 
-We create a table as follows. The ordering will be explained below.
+We create a partial segment of a table as follows. The ordering will be explained below.
 
 | $i$ | $p_i$ | $p_{p_i}$ | $p_{p_{p_i}}$ | $p_{p_{p_{p_i}}}$ | $p_{p_{p_{p_{p_i}}}}$  |
 |-----|-------|-------------|--------------|-------------------|------------------------|
@@ -53,4 +53,8 @@ We create a table as follows. The ordering will be explained below.
 | 48  | 223   | 1409        | ...          | ...               | ...                    |
 | 49  | 227   | 1433        | ...          | ...               | ...                    |
 | 50  | 229   | 1447        | ...          | ...               | ...                    |
-| $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | 
+| $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ | $\vdots$ |
+
+Write:
+
+$$p^k_i = \underbrace{p_{p_{p_{...p_i}}}}{\textrm{$k$ times}$$
