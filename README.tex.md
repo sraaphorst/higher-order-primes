@@ -130,7 +130,7 @@ In this sense, 17 can be viewed as "more prime" than 7, which only has primality
 
 1. 179 is prime and is the 41st prime, i.e. $p_{41} = 179$.
 2. 41 is the 13th prime, i.e. $p_{13} = 41$, and also $p_{p_{13}} = p^2_{13} = 179$.
-3. 13 is the 6th prime, i.e. $p_6 = 13$, and also $p_{p_{p_6}} = p^3_{6} = 179.
+3. 13 is the 6th prime, i.e. $p_6 = 13$, and also $p_{p_{p_6}} = p^3_{6} = 179$.
 
 Thus, not only is 179 prime, but:
 1. The index of 179 amongst primes (41) is also prime.
