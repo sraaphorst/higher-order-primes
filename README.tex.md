@@ -1,6 +1,6 @@
 # Higher-order primes / Super-primes
 
-Countably list all primes:
+We begin by countably listing all primes and labelling them:
 
 $$p_1, p_2, p_3, p_4, p_5, \ldots$$
 
