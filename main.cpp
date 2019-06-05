@@ -1,6 +1,8 @@
 #include <iostream>
 
+#include <prime_calculator.h>
+#include <const_math.h>
+
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    constexpr primes::prime_calculator<10000> pc{};
 }
