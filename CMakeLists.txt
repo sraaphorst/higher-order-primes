@@ -5,7 +5,12 @@ set(CMAKE_CXX_STANDARD 17)
 if (MSVC)
     add_compile_options(/W4)
 else()
-    add_compile_options(-Wall -Wextra -Wpedantic -Wno-narrowing -ftemplate-depth=10000 -fconstexpr-depth=2000 -std=c++17 -g)
+    # These settings allow us to generate 1,000,000 primes at compile time.
+    add_compile_options(-Wall -Wextra -Wpedantic -Wno-narrowing -ftemplate-depth=10000
+            -fconstexpr-depth=2000
+            -fconstexpr-loop-limit=1000000
+            -fconstexpr-ops-limit=200000000
+            -std=c++17 -g)
 endif()
 
 include_directories(
@@ -14,7 +19,4 @@ include_directories(
 )
 
 include_directories(src)
-add_subdirectory(src)
-
 add_executable(main main.cpp)
-target_link_libraries(main prime)

@@ -4,5 +4,11 @@
 #include <const_math.h>
 
 int main() {
-    constexpr primes::prime_calculator<10000> pc{};
+    constexpr auto N = 1'000'000;
+    constexpr primes::prime_calculator<N> pc{};
+
+    size_t prime_number = 1;
+    for (size_t i = 0; i < N; ++i)
+        if (pc.m_sieve[i])
+            std::cout << prime_number++ << ": " << i << '\n';
 }
