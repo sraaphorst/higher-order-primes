@@ -115,7 +115,7 @@ Let's consider number 17. By our table, we have that:
 
 <p align="center"><img src="/tex/4e786a4f28ae84078dc0eb6389adf5f8.svg?invert_in_darkmode&sanitize=true" align=middle width=79.57194299999999pt height=18.312383099999998pt/></p>
 
-Thus, 17 has **primality 2** and falls in the row-partition of our table containing the non-prime number 6.
+Thus, 17 has **primality 2** and falls in the row-partition of our table containing the non-prime number 4.
 
 The significance of primality is as follows:
 
