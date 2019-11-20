@@ -76,7 +76,7 @@ We can rewrite this as:
 3. <img src="/tex/37e71b6ee177fcbdea0851b394db6566.svg?invert_in_darkmode&sanitize=true" align=middle width=66.78650879999998pt height=26.76175259999998pt/>
 4. <img src="/tex/16b802e7d55e79f8679dbf6f634878e2.svg?invert_in_darkmode&sanitize=true" align=middle width=66.78650879999998pt height=26.76175259999998pt/>
 5. <img src="/tex/47174945b7cc31f3012dac92dee10a0f.svg?invert_in_darkmode&sanitize=true" align=middle width=75.0057198pt height=26.76175259999998pt/>
-6. <img src="/tex/4706740a02fa0c564159e8f89df5947e.svg?invert_in_darkmode&sanitize=true" align=middle width=75.0057198pt height=26.76175259999998pt/>
+6. <img src="/tex/925c690b373f39257011b0425314b949.svg?invert_in_darkmode&sanitize=true" align=middle width=75.0057198pt height=26.76175259999998pt/>
 7. etc.
 
 The second row can be written as:
