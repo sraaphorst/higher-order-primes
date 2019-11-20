@@ -76,7 +76,7 @@ We can rewrite this as:
 3. $p^2(1) = 3$
 4. $p^3(1) = 5$
 5. $p^4(1) = 11$
-6. $p^4(1) = 31$
+6. $p^5(1) = 31$
 7. etc.
 
 The second row can be written as:
