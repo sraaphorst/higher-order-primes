@@ -115,7 +115,7 @@ Let's consider number 17. By our table, we have that:
 
 $$p^2(4) = 17.$$
 
-Thus, 17 has **primality 2** and falls in the row-partition of our table containing the non-prime number 6.
+Thus, 17 has **primality 2** and falls in the row-partition of our table containing the non-prime number 4.
 
 The significance of primality is as follows:
 
