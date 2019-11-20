@@ -81,11 +81,11 @@ We can rewrite this as:
 
 The second row can be written as:
 1. <img src="/tex/94d0270434e61b5c1b5a5f7b3aa0fc1e.svg?invert_in_darkmode&sanitize=true" align=middle width=66.78650879999998pt height=26.76175259999998pt/>
-2. <img src="/tex/3f44d38a93fe7f764844cca47621a380.svg?invert_in_darkmode&sanitize=true" align=middle width=110.98869704999997pt height=26.76175259999998pt/>
-3. <img src="/tex/b66473b67b5c3bdeaa2f85d93715e5eb.svg?invert_in_darkmode&sanitize=true" align=middle width=126.10962704999999pt height=26.76175259999998pt/>
-4. <img src="/tex/c1f95e3b724c1a3e01ef01a1282b4e7a.svg?invert_in_darkmode&sanitize=true" align=middle width=133.01134935pt height=26.76175259999998pt/>
-5. <img src="/tex/7767d5c4e3246b7801fdc7ae33d8fd45.svg?invert_in_darkmode&sanitize=true" align=middle width=148.13228099999998pt height=26.76175259999998pt/>
-6. <img src="/tex/9c6b9c3fe73da1acc763f8798223a7a7.svg?invert_in_darkmode&sanitize=true" align=middle width=163.253211pt height=26.76175259999998pt/>
+2. <img src="/tex/625e92c170733a2dc2e1290c55c7271b.svg?invert_in_darkmode&sanitize=true" align=middle width=104.34916634999999pt height=26.76175259999998pt/>
+3. <img src="/tex/c495a58776939ea7422f72376b09786c.svg?invert_in_darkmode&sanitize=true" align=middle width=119.20790639999998pt height=26.76175259999998pt/>
+4. <img src="/tex/72d00a351779031d86e928387eaf9a39.svg?invert_in_darkmode&sanitize=true" align=middle width=126.10962704999999pt height=26.76175259999998pt/>
+5. <img src="/tex/f0aaa9641fbaeb76adbea6f0ae53340c.svg?invert_in_darkmode&sanitize=true" align=middle width=141.23055869999996pt height=26.76175259999998pt/>
+6. <img src="/tex/0233418cfc0b4aeb147e71f77901816d.svg?invert_in_darkmode&sanitize=true" align=middle width=156.35149034999998pt height=26.76175259999998pt/>
 7. etc.
 
 Things to note:
