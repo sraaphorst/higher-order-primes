@@ -1,6 +1,6 @@
 # Higher-order primes / Super-primes
 
-Countably list all primes:
+We begin by countably listing all primes and labelling them:
 
 $$p_1, p_2, p_3, p_4, p_5, \ldots$$
 
@@ -76,16 +76,16 @@ We can rewrite this as:
 3. $p^2(1) = 3$
 4. $p^3(1) = 5$
 5. $p^4(1) = 11$
-6. $p^4(1) = 31$
+6. $p^5(1) = 31$
 7. etc.
 
 The second row can be written as:
 1. $p^0(4) = 4$
-2. $p^1(4) = p_{p_4}} = 7$
-3. $p^2(4) = p_{p_{p_4}} = 17$
-4. $p^3(4) = p_{p_{p_{p_4}}} = 59$
-5. $p^4(5) = p_{p_{p_{p_{p_4}}}} = 277$
-6. $p^5(5) = p_{p_{p_{p_{p_{p_4}}}}} = 1787$
+2. $p^1(4) = p_{4} = 7$
+3. $p^2(4) = p_{p_4} = 17$
+4. $p^3(4) = p_{p_{p_4}} = 59$
+5. $p^4(4) = p_{p_{p_{p_4}}} = 277$
+6. $p^5(4) = p_{p_{p_{p_{p_4}}}} = 1787$
 7. etc.
 
 Things to note:
@@ -115,7 +115,7 @@ Let's consider number 17. By our table, we have that:
 
 $$p^2(4) = 17.$$
 
-Thus, 17 has **primality 2** and falls in the row-partition of our table containing the non-prime number 6.
+Thus, 17 has **primality 2** and falls in the row-partition of our table containing the non-prime number 4.
 
 The significance of primality is as follows:
 

@@ -36,7 +36,7 @@ namespace primes {
     template<size_t N>
     class prime_calculator {
         using sieve = std::array<bool, N>;
-
+    public:
         sieve m_sieve;
 
     public:
@@ -61,7 +61,7 @@ namespace primes {
         for (size_t p = 2; p <= upper_bound; ++p) {
             if (!m_sieve[p]) continue;
 
-            for (size_t multiple = p * p; multiple < N; multiple *= p)
+            for (size_t multiple = p * p; multiple < N; multiple += p)
                 m_sieve[multiple] = false;
         }
     }
