@@ -8,11 +8,25 @@
 
 #include <algorithm>
 #include <array>
+#include <limits>
 #include <iterator>
 
 #include "const_math.h"
 
 namespace primes {
+
+    double constexpr sqrtNewtonRaphson(double x, double curr, double prev) {
+        return curr == prev
+               ? curr
+               : sqrtNewtonRaphson(x, 0.5 * (curr + x / curr), curr);
+    }
+
+    double constexpr const_sqrtd(double x) {
+        return x >= 0 && x < std::numeric_limits<double>::infinity()
+               ? sqrtNewtonRaphson(x, x, 0)
+            : std::numeric_limits<double>::quiet_NaN();
+    }
+
 /**
  * Goals:
  * 1. Given any number, determine its c and k.
@@ -42,7 +56,7 @@ namespace primes {
         // We don't have to worry about 2p, 3p, 4p, (p-1)p because those will have already been knocked off by
         // 2, 3, 4, (p-1).
         // We can also stop at the square root of n.
-        auto upper_bound = static_cast<size_t>(const_math::const_sqrtd(N));
+        auto upper_bound = static_cast<size_t>(const_sqrtd(N));
 
         for (size_t p = 2; p <= upper_bound; ++p) {
             if (!m_sieve[p]) continue;
