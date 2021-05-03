@@ -21,7 +21,3 @@ include_directories(
 
 include_directories(src)
 add_executable(main main.cpp)
-<<<<<<< HEAD
-#target_link_libraries(main prime)
-=======
->>>>>>> c00195bddcd6fb684c0f4dd9c2064d6461958bbc
