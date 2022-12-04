@@ -1,4 +1,6 @@
-# Higher-order primes / Super-primes
+# Higher-Order Primes / Super-Primes
+
+**Note:** Due to the inclusion of LaTeX in this file, pieces of text may appear to be missing in dark mode.
 
 We begin by countably listing all primes and labelling them:
 
